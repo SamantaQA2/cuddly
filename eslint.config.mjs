@@ -35,7 +35,7 @@ export default defineConfig([
       "no-empty": "warn", // Disallow empty block statements
       "no-extra-semi": "warn", // Disallow unnecessary semicolons
       "no-floating-decimal": "warn", // Require leading 0 before decimals
-      "no-nested-ternary": "warn", // Avoid nested ternary operators
+      "no-nested-ternary": "error", // Avoid nested ternary operators
       "no-new": "warn", // Disallow creating new objects for side effects only
       "no-new-object": "warn", // Disallow `new Object()`
       "no-param-reassign": "warn", // Prevent parameter reassignment
@@ -100,6 +100,7 @@ export default defineConfig([
     },
   },
 ]);
+
 
 
 
