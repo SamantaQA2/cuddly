@@ -54,7 +54,7 @@ export default defineConfig([
 
       /* ----------------------- 🧽 Unused Imports / Vars ----------------------- */
       "unused-imports/no-unused-imports": "warn", // Remove unused imports
-      "@typescript-eslint/no-unused-vars": "warn", // Remove unused variables
+      "@typescript-eslint/no-unused-vars": "error", // Remove unused variables
 
       /* ----------------------- 🧠 TypeScript Rules ----------------------- */
       "@typescript-eslint/explicit-function-return-type": "warn", // Require explicit return types on functions
@@ -100,6 +100,7 @@ export default defineConfig([
     },
   },
 ]);
+
 
 
 
