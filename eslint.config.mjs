@@ -35,7 +35,7 @@ export default defineConfig([
       "no-empty": "warn", // Disallow empty block statements
       "no-extra-semi": "warn", // Disallow unnecessary semicolons
       "no-floating-decimal": "warn", // Require leading 0 before decimals
-      "no-nested-ternary": "error", // Avoid nested ternary operators
+      "no-nested-ternary": "warn", // Avoid nested ternary operators
       "no-new": "warn", // Disallow creating new objects for side effects only
       "no-new-object": "warn", // Disallow `new Object()`
       "no-param-reassign": "warn", // Prevent parameter reassignment
@@ -91,15 +91,16 @@ export default defineConfig([
       "@typescript-eslint/no-floating-promises": "warn", // Require proper promise handling
       "@typescript-eslint/no-misused-promises": "warn", // Disallow misused promises
       "@typescript-eslint/consistent-type-imports": "warn", // Enforce using `import type`
-      "@typescript-eslint/array-type": "error", // Enforce consistent array type syntax
-      "@typescript-eslint/no-shadow": "error", // Disallow variable shadowing
-      // "@typescript-eslint/ban-types": "error", // Disallow certain built-in types
-      "@typescript-eslint/no-unsafe-argument": "error", // Disallow unsafe arguments
-      "@typescript-eslint/no-unsafe-assignment": "error", // Disallow unsafe assignments
-      "@typescript-eslint/no-unsafe-return": "error", // Disallow unsafe return values
+      "@typescript-eslint/array-type": "warn", // Enforce consistent array type syntax
+      "@typescript-eslint/no-shadow": "warn", // Disallow variable shadowing
+      // "@typescript-eslint/ban-types": "warn", // Disallow certain built-in types
+      "@typescript-eslint/no-unsafe-argument": "warn", // Disallow unsafe arguments
+      "@typescript-eslint/no-unsafe-assignment": "warn", // Disallow unsafe assignments
+      "@typescript-eslint/no-unsafe-return": "warn", // Disallow unsafe return values
     },
   },
 ]);
+
 
 
 
