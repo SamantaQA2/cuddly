@@ -123,6 +123,8 @@ function switchTest(val: number): string {
       throw new Error("Invalid value");
   }
 }
+const sam = 5;
+console.log(change(sam));
 
 
 
