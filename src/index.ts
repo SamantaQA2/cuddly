@@ -126,6 +126,6 @@ function switchTest(val: number): string {
 const sam = 5;
 console.log(change(sam));
 
-
+export { change, greet, maxParams, check, switchTest, foo };
 
 
